@@ -64,8 +64,8 @@ print("\n" *2)
 print(Fore.CYAN + "                Welcome to Rock-Paper-Scissors Game")
 print(Fore.CYAN + "                ====================================")
 
-user_score = [0]  # Initialize user score as a list
-computer_score = [0]  # Initialize computer score as a list
+user_score = [0]
+computer_score = [0]
 round_number = 0
 
 while True:
