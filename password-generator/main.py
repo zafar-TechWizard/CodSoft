@@ -24,11 +24,6 @@ def generate_password(length):
     password = ''.join(password_list)
     return password
 
-# def generate_password(length):
-#     characters = string.ascii_letters + string.digits + string.punctuation
-#     password = ''.join(random.choice(characters) for _ in range(length))
-#     return password
-
 # ASCII art for decoration
 print(Fore.CYAN + "Welcome to Password Generator")
 print(Fore.CYAN + "=============================")
